@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel= "stylesheet" href="style.css">
+    <title>Contact Us: Group E</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class ="bar">
-
-        
-        <li> <h1>webpage</h1></li>
-
-       <li><p><a href="index.html" >Home</a></p></li> 
-       <li><p><a href="contact.html" class="active">Contact</a></p></li>
-       <li><p><a href="document.html" >Documentation</a></p></li>
-
-       <li style ="float:right"><p style="display: block;"><a href="portfolio.html">Portfolio </a></p></li>
-      
-       <div class ="main"> <p>      <h1>CONTACT US</h1>
-        <h4>About this page:</h4>
-        <i>This page contains the contact information of all group E members.</i>
-        <h4><b>Egwuatu chinedu's contact information:</b></h4>
-        Phone number: +234 7034286883<br />
-        Email: alexzandregwuatu@gmail.com<br />
-        <h4><b>Edekobi Philip Chukwuma's contact information:</b></h4>
-        Phone number: +234 9057026031<br />
-        Email: philip30089@gmail.com<br />
-        <h4><b>Okechukwu Eluwa's contact information:</b></h4>
-        Phone number: +234 8168212834<br />
-        Email: eluwah80@gmail.com<br />
-        <h4><b>Chimaroke Chigozirim's contact information:</b></h4>
-        Phone number: +234 8-090902105<br />
-        Email: Chimaroke9080@gmail.com<br />
-    </p></div>
-   </nav>
-<p></p>   
+    <header class="top-header">
+        <nav class="navbar">
+            <h1 class="brand">Group E</h1>
+            <div class="toggler">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="links-list"> 
+                <li ><a href="index.html" class="link">Home</a></li>
+                <li><a href="portfolio.html"class="link" >Portfolio</a></li>
+                <li><a class="link active" href="#">Contact Us</a></li>
+                <li><a href="docs.html" class="link">Docs</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <br/>
+    <section class="contact">
+        <h2 class="heading">Contact <span class="highlight">Us</span></h2>
+        <p class="sub-heading">We at Group E deliver efficiently. We're built different.</p>
+        <div class="seperator"></div>
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="First Name">
+                <input type="text" class="last-name" required placeholder="Last Name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">Send Message</button>
+        </div>
+    </section>
+    <br/>
+    <footer>SE Group B--E &copy;2021</footer>
 </body>
 </html>
